@@ -1,6 +1,6 @@
 # Cloud Full-Benchmark Programmatic Summary Report
 
-Source: Full 50-sequence official VOT-LT2022 audited runs (parsed strictly from `independent-audit.json` / `results.json`).
+Source directory: `F:\PaperWorkspace\TrackingResearch\cloud-vot22-20261124\runs` (parsed strictly from `independent-audit.json` / `results.json`).
 
 ## 1. Full VOT-LT2022 (50 Sequences) Main Pareto Table
 
@@ -25,6 +25,7 @@ Source: Full 50-sequence official VOT-LT2022 audited runs (parsed strictly from 
 | SAM 2.1 Tiny — `vanilla` | `AUDIT_OK` | 87 | 81 | 3229 | 0 / 0 | 0.5145 | 0.5750 | 0.5068 | **0.5388** | **0.5413** | `-inf` | 0.5018 | 0.4547 | 94.4 |
 | CARE — full (`sam2_native`, dual-anchor + scale-norm + 1-step rollback) | `AUDIT_OK` | 96 | 89 | 3763 | 68 / 10 | 0.5671 | 0.5709 | 0.5518 | **0.5612** | **0.5638** | `-inf` | 0.5461 | 0.4940 | 93.5 |
 | CARE — verifier `none` (no appearance verifier) | `AUDIT_OK` | 95 | 88 | 6515 | 73 / 12 | 0.5634 | 0.5656 | 0.5500 | **0.5577** | **0.5603** | `-inf` | 0.5443 | 0.4930 | 99.7 |
+| CARE — verifier `dinov2` (external ViT-S/14) | `AUDIT_OK` | 93 | 86 | 6523 | 61 / 10 | 0.5576 | 0.5644 | 0.5457 | **0.5549** | **0.5575** | `-inf` | 0.5401 | 0.4896 | 96.9 |
 | CARE — `--no-dual-anchor` (`m0` only) | `AUDIT_OK` | 88 | 81 | 4263 | 70 / 11 | 0.5461 | 0.5615 | 0.5347 | **0.5478** | **0.5504** | `0.7400` | 0.5293 | 0.4778 | 100.2 |
 | CARE — `--no-certify-anchor` | `AUDIT_OK` | 96 | 89 | 3422 | 69 / 12 | 0.5671 | 0.5716 | 0.5518 | **0.5615** | **0.5642** | `-inf` | 0.5462 | 0.4941 | 99.0 |
 | CARE — `--no-scale-norm` | `AUDIT_OK` | 96 | 89 | 3632 | 68 / 14 | 0.5594 | 0.5716 | 0.5478 | **0.5595** | **0.5620** | `-inf` | 0.5425 | 0.4897 | 91.1 |

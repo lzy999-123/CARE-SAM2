@@ -1,0 +1,789 @@
+{
+  "vot_toolkit_version": "0.9.0",
+  "longterm_py_sha256": "db3f3161cd2ff0bd3de4a1dbd29ec1c4e90e1cadeb5afc17e896f2ac9599833f",
+  "runs": {
+    "vot22_abl_no_certify": {
+      "care": {
+        "custom_online_f1": 0.561526,
+        "vot_unswept": {
+          "threshold": "-inf",
+          "f_score": 0.564182,
+          "precision": 0.574402,
+          "recall": 0.55432,
+          "absent_fp": 3422,
+          "reported_frames": 143219
+        },
+        "vot_swept": {
+          "threshold": "-inf",
+          "f_score": 0.564182,
+          "precision": 0.574402,
+          "recall": 0.55432,
+          "absent_fp": 3422,
+          "reported_frames": 143219
+        },
+        "decomposition": {
+          "evaluator_offset_f": 0.002656,
+          "threshold_sweep_gain_f": 0.0,
+          "absent_fp_masked_by_tau": 0,
+          "absent_fp_masked_pct": 0.0
+        },
+        "quality_audit": {
+          "total_logged_diag_quality": 196,
+          "commit_logged_diag_quality": 69,
+          "unique_values": [
+            1.0
+          ]
+        }
+      }
+    },
+    "vot22_abl_no_dual_anchor": {
+      "care": {
+        "custom_online_f1": 0.547753,
+        "vot_unswept": {
+          "threshold": "-inf",
+          "f_score": 0.55033,
+          "precision": 0.564416,
+          "recall": 0.53693,
+          "absent_fp": 4263,
+          "reported_frames": 140894
+        },
+        "vot_swept": {
+          "threshold": 0.739987,
+          "f_score": 0.550375,
+          "precision": 0.567657,
+          "recall": 0.534115,
+          "absent_fp": 3817,
+          "reported_frames": 139459
+        },
+        "decomposition": {
+          "evaluator_offset_f": 0.002578,
+          "threshold_sweep_gain_f": 4.5e-05,
+          "absent_fp_masked_by_tau": 446,
+          "absent_fp_masked_pct": 10.46
+        },
+        "quality_audit": {
+          "total_logged_diag_quality": 206,
+          "commit_logged_diag_quality": 70,
+          "unique_values": [
+            1.0
+          ]
+        }
+      }
+    },
+    "vot22_abl_no_rollback": {
+      "care": {
+        "custom_online_f1": 0.560991,
+        "vot_unswept": {
+          "threshold": "-inf",
+          "f_score": 0.563643,
+          "precision": 0.572955,
+          "recall": 0.554629,
+          "absent_fp": 3760,
+          "reported_frames": 143745
+        },
+        "vot_swept": {
+          "threshold": "-inf",
+          "f_score": 0.563643,
+          "precision": 0.572955,
+          "recall": 0.554629,
+          "absent_fp": 3760,
+          "reported_frames": 143745
+        },
+        "decomposition": {
+          "evaluator_offset_f": 0.002653,
+          "threshold_sweep_gain_f": 0.0,
+          "absent_fp_masked_by_tau": 0,
+          "absent_fp_masked_pct": 0.0
+        },
+        "quality_audit": {
+          "total_logged_diag_quality": 171,
+          "commit_logged_diag_quality": 62,
+          "unique_values": [
+            1.0
+          ]
+        }
+      }
+    },
+    "vot22_abl_no_scale_norm": {
+      "care": {
+        "custom_online_f1": 0.559459,
+        "vot_unswept": {
+          "threshold": "-inf",
+          "f_score": 0.562006,
+          "precision": 0.574465,
+          "recall": 0.550076,
+          "absent_fp": 3632,
+          "reported_frames": 142557
+        },
+        "vot_swept": {
+          "threshold": "-inf",
+          "f_score": 0.562006,
+          "precision": 0.574465,
+          "recall": 0.550076,
+          "absent_fp": 3632,
+          "reported_frames": 142557
+        },
+        "decomposition": {
+          "evaluator_offset_f": 0.002547,
+          "threshold_sweep_gain_f": 0.0,
+          "absent_fp_masked_by_tau": 0,
+          "absent_fp_masked_pct": 0.0
+        },
+        "quality_audit": {
+          "total_logged_diag_quality": 200,
+          "commit_logged_diag_quality": 68,
+          "unique_values": [
+            1.0
+          ]
+        }
+      }
+    },
+    "vot22_abl_verifier_dinov2": {
+      "care": {
+        "custom_online_f1": 0.554907,
+        "vot_unswept": {
+          "threshold": "-inf",
+          "f_score": 0.557479,
+          "precision": 0.567156,
+          "recall": 0.548128,
+          "absent_fp": 6523,
+          "reported_frames": 146018
+        },
+        "vot_swept": {
+          "threshold": "-inf",
+          "f_score": 0.557479,
+          "precision": 0.567156,
+          "recall": 0.548128,
+          "absent_fp": 6523,
+          "reported_frames": 146018
+        },
+        "decomposition": {
+          "evaluator_offset_f": 0.002572,
+          "threshold_sweep_gain_f": 0.0,
+          "absent_fp_masked_by_tau": 0,
+          "absent_fp_masked_pct": 0.0
+        },
+        "quality_audit": {
+          "total_logged_diag_quality": 189,
+          "commit_logged_diag_quality": 61,
+          "unique_values": [
+            1.0
+          ]
+        }
+      }
+    },
+    "vot22_abl_verifier_none": {
+      "care": {
+        "custom_online_f1": 0.557695,
+        "vot_unswept": {
+          "threshold": "-inf",
+          "f_score": 0.56027,
+          "precision": 0.568374,
+          "recall": 0.552394,
+          "absent_fp": 6515,
+          "reported_frames": 146682
+        },
+        "vot_swept": {
+          "threshold": "-inf",
+          "f_score": 0.56027,
+          "precision": 0.568374,
+          "recall": 0.552394,
+          "absent_fp": 6515,
+          "reported_frames": 146682
+        },
+        "decomposition": {
+          "evaluator_offset_f": 0.002575,
+          "threshold_sweep_gain_f": 0.0,
+          "absent_fp_masked_by_tau": 0,
+          "absent_fp_masked_pct": 0.0
+        },
+        "quality_audit": {
+          "total_logged_diag_quality": 205,
+          "commit_logged_diag_quality": 73,
+          "unique_values": [
+            1.0
+          ]
+        }
+      }
+    },
+    "vot22_dam4sam_tiny": {
+      "baseline": {
+        "custom_online_f1": 0.520739,
+        "vot_unswept": {
+          "threshold": "-inf",
+          "f_score": 0.523272,
+          "precision": 0.521372,
+          "recall": 0.525186,
+          "absent_fp": 6044,
+          "reported_frames": 148373
+        },
+        "vot_swept": {
+          "threshold": 0.961893,
+          "f_score": 0.526177,
+          "precision": 0.534165,
+          "recall": 0.518425,
+          "absent_fp": 3960,
+          "reported_frames": 142367
+        },
+        "decomposition": {
+          "evaluator_offset_f": 0.002532,
+          "threshold_sweep_gain_f": 0.002906,
+          "absent_fp_masked_by_tau": 2084,
+          "absent_fp_masked_pct": 34.48
+        },
+        "quality_audit": {
+          "total_logged_diag_quality": 0,
+          "commit_logged_diag_quality": 0,
+          "unique_values": []
+        }
+      }
+    },
+    "vot22_sam21_baseplus_gating": {
+      "gate_skip_absent": {
+        "custom_online_f1": 0.545617,
+        "vot_unswept": {
+          "threshold": "-inf",
+          "f_score": 0.548101,
+          "precision": 0.543975,
+          "recall": 0.552289,
+          "absent_fp": 6459,
+          "reported_frames": 150940
+        },
+        "vot_swept": {
+          "threshold": 0.995735,
+          "f_score": 0.553005,
+          "precision": 0.571938,
+          "recall": 0.535287,
+          "absent_fp": 3032,
+          "reported_frames": 138738
+        },
+        "decomposition": {
+          "evaluator_offset_f": 0.002483,
+          "threshold_sweep_gain_f": 0.004905,
+          "absent_fp_masked_by_tau": 3427,
+          "absent_fp_masked_pct": 53.06
+        },
+        "quality_audit": {
+          "total_logged_diag_quality": 0,
+          "commit_logged_diag_quality": 0,
+          "unique_values": []
+        }
+      },
+      "gate_skip_absent_keept1": {
+        "custom_online_f1": 0.5293,
+        "vot_unswept": {
+          "threshold": "-inf",
+          "f_score": 0.531701,
+          "precision": 0.539618,
+          "recall": 0.524013,
+          "absent_fp": 6056,
+          "reported_frames": 141663
+        },
+        "vot_swept": {
+          "threshold": 0.97859,
+          "f_score": 0.534544,
+          "precision": 0.553065,
+          "recall": 0.517223,
+          "absent_fp": 4162,
+          "reported_frames": 135929
+        },
+        "decomposition": {
+          "evaluator_offset_f": 0.002401,
+          "threshold_sweep_gain_f": 0.002843,
+          "absent_fp_masked_by_tau": 1894,
+          "absent_fp_masked_pct": 31.27
+        },
+        "quality_audit": {
+          "total_logged_diag_quality": 0,
+          "commit_logged_diag_quality": 0,
+          "unique_values": []
+        }
+      }
+    },
+    "vot22_sam21_baseplus_native": {
+      "baseline": {
+        "custom_online_f1": 0.53092,
+        "vot_unswept": {
+          "threshold": "-inf",
+          "f_score": 0.533446,
+          "precision": 0.586688,
+          "recall": 0.489063,
+          "absent_fp": 2859,
+          "reported_frames": 121141
+        },
+        "vot_swept": {
+          "threshold": 0.909747,
+          "f_score": 0.534949,
+          "precision": 0.596672,
+          "recall": 0.484798,
+          "absent_fp": 1948,
+          "reported_frames": 118683
+        },
+        "decomposition": {
+          "evaluator_offset_f": 0.002526,
+          "threshold_sweep_gain_f": 0.001503,
+          "absent_fp_masked_by_tau": 911,
+          "absent_fp_masked_pct": 31.86
+        },
+        "quality_audit": {
+          "total_logged_diag_quality": 0,
+          "commit_logged_diag_quality": 0,
+          "unique_values": []
+        }
+      },
+      "care": {
+        "custom_online_f1": 0.570775,
+        "vot_unswept": {
+          "threshold": "-inf",
+          "f_score": 0.573566,
+          "precision": 0.586847,
+          "recall": 0.560873,
+          "absent_fp": 3142,
+          "reported_frames": 139967
+        },
+        "vot_swept": {
+          "threshold": 0.923178,
+          "f_score": 0.575041,
+          "precision": 0.59543,
+          "recall": 0.556002,
+          "absent_fp": 2097,
+          "reported_frames": 137127
+        },
+        "decomposition": {
+          "evaluator_offset_f": 0.002791,
+          "threshold_sweep_gain_f": 0.001475,
+          "absent_fp_masked_by_tau": 1045,
+          "absent_fp_masked_pct": 33.26
+        },
+        "quality_audit": {
+          "total_logged_diag_quality": 260,
+          "commit_logged_diag_quality": 93,
+          "unique_values": [
+            1.0
+          ]
+        }
+      }
+    },
+    "vot22_sam21_tiny_gating": {
+      "gate_skip_absent": {
+        "custom_online_f1": 0.542464,
+        "vot_unswept": {
+          "threshold": "-inf",
+          "f_score": 0.545088,
+          "precision": 0.540501,
+          "recall": 0.549754,
+          "absent_fp": 5481,
+          "reported_frames": 151442
+        },
+        "vot_swept": {
+          "threshold": 0.863966,
+          "f_score": 0.547227,
+          "precision": 0.551483,
+          "recall": 0.543037,
+          "absent_fp": 3775,
+          "reported_frames": 146839
+        },
+        "decomposition": {
+          "evaluator_offset_f": 0.002625,
+          "threshold_sweep_gain_f": 0.002139,
+          "absent_fp_masked_by_tau": 1706,
+          "absent_fp_masked_pct": 31.13
+        },
+        "quality_audit": {
+          "total_logged_diag_quality": 0,
+          "commit_logged_diag_quality": 0,
+          "unique_values": []
+        }
+      },
+      "gate_skip_absent_keept1": {
+        "custom_online_f1": 0.552392,
+        "vot_unswept": {
+          "threshold": "-inf",
+          "f_score": 0.554956,
+          "precision": 0.549071,
+          "recall": 0.560969,
+          "absent_fp": 7774,
+          "reported_frames": 154199
+        },
+        "vot_swept": {
+          "threshold": 0.885433,
+          "f_score": 0.556964,
+          "precision": 0.559311,
+          "recall": 0.554636,
+          "absent_fp": 6189,
+          "reported_frames": 149513
+        },
+        "decomposition": {
+          "evaluator_offset_f": 0.002564,
+          "threshold_sweep_gain_f": 0.002008,
+          "absent_fp_masked_by_tau": 1585,
+          "absent_fp_masked_pct": 20.39
+        },
+        "quality_audit": {
+          "total_logged_diag_quality": 0,
+          "commit_logged_diag_quality": 0,
+          "unique_values": []
+        }
+      }
+    },
+    "vot22_sam21_tiny_native": {
+      "baseline": {
+        "custom_online_f1": 0.538751,
+        "vot_unswept": {
+          "threshold": "-inf",
+          "f_score": 0.541337,
+          "precision": 0.578002,
+          "recall": 0.509046,
+          "absent_fp": 3229,
+          "reported_frames": 131828
+        },
+        "vot_swept": {
+          "threshold": "-inf",
+          "f_score": 0.541337,
+          "precision": 0.578002,
+          "recall": 0.509046,
+          "absent_fp": 3229,
+          "reported_frames": 131828
+        },
+        "decomposition": {
+          "evaluator_offset_f": 0.002586,
+          "threshold_sweep_gain_f": 0.0,
+          "absent_fp_masked_by_tau": 0,
+          "absent_fp_masked_pct": 0.0
+        },
+        "quality_audit": {
+          "total_logged_diag_quality": 0,
+          "commit_logged_diag_quality": 0,
+          "unique_values": []
+        }
+      },
+      "care": {
+        "custom_online_f1": 0.561154,
+        "vot_unswept": {
+          "threshold": "-inf",
+          "f_score": 0.563807,
+          "precision": 0.573674,
+          "recall": 0.554273,
+          "absent_fp": 3763,
+          "reported_frames": 143560
+        },
+        "vot_swept": {
+          "threshold": "-inf",
+          "f_score": 0.563807,
+          "precision": 0.573674,
+          "recall": 0.554273,
+          "absent_fp": 3763,
+          "reported_frames": 143560
+        },
+        "decomposition": {
+          "evaluator_offset_f": 0.002653,
+          "threshold_sweep_gain_f": 0.0,
+          "absent_fp_masked_by_tau": 0,
+          "absent_fp_masked_pct": 0.0
+        },
+        "quality_audit": {
+          "total_logged_diag_quality": 195,
+          "commit_logged_diag_quality": 68,
+          "unique_values": [
+            1.0
+          ]
+        }
+      }
+    },
+    "vot22_samurai_tiny_m0": {
+      "baseline": {
+        "custom_online_f1": 0.55385,
+        "vot_unswept": {
+          "threshold": "-inf",
+          "f_score": 0.556554,
+          "precision": 0.550756,
+          "recall": 0.562476,
+          "absent_fp": 6411,
+          "reported_frames": 151861
+        },
+        "vot_swept": {
+          "threshold": 0.832781,
+          "f_score": 0.558797,
+          "precision": 0.560382,
+          "recall": 0.557221,
+          "absent_fp": 4975,
+          "reported_frames": 147247
+        },
+        "decomposition": {
+          "evaluator_offset_f": 0.002704,
+          "threshold_sweep_gain_f": 0.002243,
+          "absent_fp_masked_by_tau": 1436,
+          "absent_fp_masked_pct": 22.4
+        },
+        "quality_audit": {
+          "total_logged_diag_quality": 0,
+          "commit_logged_diag_quality": 0,
+          "unique_values": []
+        }
+      }
+    },
+    "vot22_samurai_tiny_m1": {
+      "baseline": {
+        "custom_online_f1": 0.54339,
+        "vot_unswept": {
+          "threshold": "-inf",
+          "f_score": 0.545931,
+          "precision": 0.53494,
+          "recall": 0.557383,
+          "absent_fp": 9856,
+          "reported_frames": 157968
+        },
+        "vot_swept": {
+          "threshold": 0.805632,
+          "f_score": 0.550981,
+          "precision": 0.549643,
+          "recall": 0.552326,
+          "absent_fp": 7477,
+          "reported_frames": 153168
+        },
+        "decomposition": {
+          "evaluator_offset_f": 0.002541,
+          "threshold_sweep_gain_f": 0.00505,
+          "absent_fp_masked_by_tau": 2379,
+          "absent_fp_masked_pct": 24.14
+        },
+        "quality_audit": {
+          "total_logged_diag_quality": 0,
+          "commit_logged_diag_quality": 0,
+          "unique_values": []
+        }
+      }
+    }
+  },
+  "a6_probe_analysis": {
+    "a3_strata_visible": {
+      "k_eq_1": {
+        "orig_memory": {
+          "n": 144,
+          "iou_ge_05": 0
+        },
+        "strip_no_obj_spatial_only": {
+          "n": 144,
+          "iou_ge_05": 8
+        },
+        "drop_recent_ptrs_keep_spatial": {
+          "n": 144,
+          "iou_ge_05": 8
+        },
+        "m0_plus_1empty": {
+          "n": 144,
+          "iou_ge_05": 11
+        },
+        "drop_recent_spatial_keep_ptrs": {
+          "n": 144,
+          "iou_ge_05": 19
+        },
+        "m0_only": {
+          "n": 144,
+          "iou_ge_05": 17
+        },
+        "m0_plus_mclean": {
+          "n": 144,
+          "iou_ge_05": 17
+        },
+        "m0_plus_6vis_condptr": {
+          "n": 144,
+          "iou_ge_05": 16
+        },
+        "m0_plus_6vis_15visptr": {
+          "n": 144,
+          "iou_ge_05": 8
+        }
+      },
+      "k_ge_2": {
+        "orig_memory": {
+          "n": 22756,
+          "iou_ge_05": 0
+        },
+        "strip_no_obj_spatial_only": {
+          "n": 22756,
+          "iou_ge_05": 33
+        },
+        "drop_recent_ptrs_keep_spatial": {
+          "n": 22756,
+          "iou_ge_05": 54
+        },
+        "m0_plus_1empty": {
+          "n": 22756,
+          "iou_ge_05": 1112
+        },
+        "drop_recent_spatial_keep_ptrs": {
+          "n": 22756,
+          "iou_ge_05": 8453
+        },
+        "m0_only": {
+          "n": 22756,
+          "iou_ge_05": 7117
+        },
+        "m0_plus_mclean": {
+          "n": 22756,
+          "iou_ge_05": 7443
+        },
+        "m0_plus_6vis_condptr": {
+          "n": 22756,
+          "iou_ge_05": 9250
+        },
+        "m0_plus_6vis_15visptr": {
+          "n": 22756,
+          "iou_ge_05": 8562
+        }
+      },
+      "k_ge_6": {
+        "orig_memory": {
+          "n": 22503,
+          "iou_ge_05": 0
+        },
+        "strip_no_obj_spatial_only": {
+          "n": 22503,
+          "iou_ge_05": 24
+        },
+        "drop_recent_ptrs_keep_spatial": {
+          "n": 22503,
+          "iou_ge_05": 46
+        },
+        "m0_plus_1empty": {
+          "n": 22503,
+          "iou_ge_05": 1101
+        },
+        "drop_recent_spatial_keep_ptrs": {
+          "n": 22503,
+          "iou_ge_05": 8404
+        },
+        "m0_only": {
+          "n": 22503,
+          "iou_ge_05": 7077
+        },
+        "m0_plus_mclean": {
+          "n": 22503,
+          "iou_ge_05": 7410
+        },
+        "m0_plus_6vis_condptr": {
+          "n": 22503,
+          "iou_ge_05": 9200
+        },
+        "m0_plus_6vis_15visptr": {
+          "n": 22503,
+          "iou_ge_05": 8535
+        }
+      },
+      "k_ge_15": {
+        "orig_memory": {
+          "n": 22086,
+          "iou_ge_05": 0
+        },
+        "strip_no_obj_spatial_only": {
+          "n": 22086,
+          "iou_ge_05": 19
+        },
+        "drop_recent_ptrs_keep_spatial": {
+          "n": 22086,
+          "iou_ge_05": 26
+        },
+        "m0_plus_1empty": {
+          "n": 22086,
+          "iou_ge_05": 1061
+        },
+        "drop_recent_spatial_keep_ptrs": {
+          "n": 22086,
+          "iou_ge_05": 8290
+        },
+        "m0_only": {
+          "n": 22086,
+          "iou_ge_05": 6983
+        },
+        "m0_plus_mclean": {
+          "n": 22086,
+          "iou_ge_05": 7342
+        },
+        "m0_plus_6vis_condptr": {
+          "n": 22086,
+          "iou_ge_05": 9110
+        },
+        "m0_plus_6vis_15visptr": {
+          "n": 22086,
+          "iou_ge_05": 8475
+        }
+      },
+      "all_k_ge_1": {
+        "orig_memory": {
+          "n": 22900,
+          "iou_ge_05": 0
+        },
+        "strip_no_obj_spatial_only": {
+          "n": 22900,
+          "iou_ge_05": 41
+        },
+        "drop_recent_ptrs_keep_spatial": {
+          "n": 22900,
+          "iou_ge_05": 62
+        },
+        "m0_plus_1empty": {
+          "n": 22900,
+          "iou_ge_05": 1123
+        },
+        "drop_recent_spatial_keep_ptrs": {
+          "n": 22900,
+          "iou_ge_05": 8472
+        },
+        "m0_only": {
+          "n": 22900,
+          "iou_ge_05": 7134
+        },
+        "m0_plus_mclean": {
+          "n": 22900,
+          "iou_ge_05": 7460
+        },
+        "m0_plus_6vis_condptr": {
+          "n": 22900,
+          "iou_ge_05": 9266
+        },
+        "m0_plus_6vis_15visptr": {
+          "n": 22900,
+          "iou_ge_05": 8570
+        }
+      }
+    },
+    "a2_silence_origin": {
+      "total_silent_visible": 22900,
+      "after_any_gt_absent_in_episode": 14932,
+      "after_ge15_gt_absent_in_episode": 13483,
+      "purely_visible_episode_no_gt_absent": 7968,
+      "by_video_purely_visible": {
+        "airplane": 617,
+        "bag": 2,
+        "bicycle": 1,
+        "bottle": 2,
+        "car": 1,
+        "carchase": 301,
+        "coin": 1,
+        "dancingshoe": 1,
+        "diabolo": 11,
+        "diving": 109,
+        "dog1": 171,
+        "drone": 1622,
+        "flyboard": 2,
+        "goldfish": 58,
+        "hand": 9,
+        "helicopter": 566,
+        "houseride": 1628,
+        "kangaroo": 44,
+        "kit": 592,
+        "licenseplate": 348,
+        "motorcycle": 144,
+        "panda": 150,
+        "parkour": 2,
+        "rhino": 422,
+        "seagull": 171,
+        "skiing": 68,
+        "squirrel": 802,
+        "surfing": 119,
+        "volleyball": 4
+      }
+    }
+  }
+}

@@ -553,6 +553,68 @@
           "unique_values": []
         }
       }
+    },
+    "vot22_sam2long_tiny": {
+      "baseline": {
+        "custom_online_f1": 0.543261,
+        "vot_unswept": {
+          "threshold": "-inf",
+          "f_score": 0.545748,
+          "precision": 0.557575,
+          "recall": 0.534411,
+          "absent_fp": 7065,
+          "reported_frames": 143460
+        },
+        "vot_swept": {
+          "threshold": 0.985043,
+          "f_score": 0.550115,
+          "precision": 0.585117,
+          "recall": 0.519064,
+          "absent_fp": 4791,
+          "reported_frames": 134765
+        },
+        "decomposition": {
+          "evaluator_offset_f": 0.002487,
+          "threshold_sweep_gain_f": 0.004367,
+          "absent_fp_masked_by_tau": 2274,
+          "absent_fp_masked_pct": 32.19
+        },
+        "quality_audit": {
+          "total_logged_diag_quality": 0,
+          "commit_logged_diag_quality": 0,
+          "unique_values": []
+        }
+      },
+      "backtrack": {
+        "custom_online_f1": 0.543104,
+        "vot_unswept": {
+          "threshold": "-inf",
+          "f_score": 0.545589,
+          "precision": 0.557399,
+          "recall": 0.534269,
+          "absent_fp": 7063,
+          "reported_frames": 143457
+        },
+        "vot_swept": {
+          "threshold": 0.9851,
+          "f_score": 0.549947,
+          "precision": 0.584857,
+          "recall": 0.518971,
+          "absent_fp": 4792,
+          "reported_frames": 134762
+        },
+        "decomposition": {
+          "evaluator_offset_f": 0.002485,
+          "threshold_sweep_gain_f": 0.004359,
+          "absent_fp_masked_by_tau": 2271,
+          "absent_fp_masked_pct": 32.15
+        },
+        "quality_audit": {
+          "total_logged_diag_quality": 0,
+          "commit_logged_diag_quality": 0,
+          "unique_values": []
+        }
+      }
     }
   },
   "a6_probe_analysis": {

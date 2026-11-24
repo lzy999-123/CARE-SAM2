@@ -17,6 +17,8 @@ Source directory: `F:\PaperWorkspace\TrackingResearch\cloud-vot22-20261124\runs`
 | SAMURAI Tiny — stock (`min_obj=-1.0`) | `AUDIT_OK` | 113 | 96 | 9856 | 0 / 0 | 0.5682 | 0.5324 | 0.5549 | **0.5434** | **0.5510** | `0.8056` | 0.5495 | 0.4980 | 190.4 |
 | SAMURAI Tiny — calibrated (`min_obj=0.0`) | `AUDIT_OK` | 115 | 101 | 6411 | 0 / 0 | 0.5712 | 0.5480 | 0.5598 | **0.5539** | **0.5588** | `0.8328` | 0.5543 | 0.5004 | 187.7 |
 | DAM4SAM Tiny — stock | `AUDIT_OK` | 101 | 82 | 6044 | 0 / 0 | 0.5308 | 0.5188 | 0.5227 | **0.5207** | **0.5262** | `0.9619` | 0.5170 | 0.4703 | 132.1 |
+| SAM2Long Tiny — official (`K=3`, online top-1) | `AUDIT_OK` | 103 | 94 | 7065 | 0 / 0 | 0.5481 | 0.5549 | 0.5321 | **0.5433** | **0.5501** | `0.9850` | 0.5266 | 0.4793 | 284.0 |
+| SAM2Long Tiny — official (`K=3`, full-video backtrack) | `AUDIT_OK` | 104 | 92 | 7063 | 0 / 0 | 0.5479 | 0.5547 | 0.5320 | **0.5431** | **0.5499** | `0.9851` | 0.5265 | 0.4792 | 284.0 |
 
 ## 2. Full VOT-LT2022 Component & Verifier Ablation Table
 

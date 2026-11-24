@@ -26,6 +26,7 @@ All values below are parsed programmatically from audited `independent-audit.jso
 | SAMURAI Tiny (stock, `min_obj=-1.0`) | 113 | 96 | 9,856 | 0.5682 | 0.5324 | 0.5549 | **0.5434** | **0.5510** | `0.8056` | 190.4 |
 | SAMURAI Tiny (calibrated, `min_obj=0.0`) | 115 | 101 | 6,411 | 0.5712 | 0.5480 | 0.5598 | **0.5539** | **0.5588** | `0.8328` | 187.7 |
 | DAM4SAM Tiny (det. fixed box) | 101 | 82 | 6,044 | 0.5308 | 0.5188 | 0.5227 | **0.5207** | **0.5262** | `0.9619` | 132.1 |
+| SAM2Long Tiny (`K=3`, online; ICCV 2025) | 103 | 94 | 7,065 | 0.5481 | 0.5549 | 0.5321 | **0.5433** | **0.5501** | `0.9850` | 284.0 |
 | **CARE Tiny (`sam2_native`)** | 96 | 89 | 3,763 | 0.5671 | 0.5709 | 0.5518 | **0.5612** | **0.5638** | `-inf` | **93.5** |
 | SAM 2.1 Base+ (`vanilla`) | 76 | 66 | 2,859 | 0.4886 | 0.5836 | 0.4869 | **0.5309** | **0.5349** | `0.9097` | 147.3 |
 | SAM 2.1 Base+ (`gate_skip_absent`, 5-line) | 115 | 102 | 6,459 | 0.5586 | 0.5414 | 0.5499 | **0.5456** | **0.5530** | `0.9957` | 161.6 |
@@ -54,6 +55,7 @@ CARE-SAM2/
 │   ├── run_memory_gating_benchmark.py         # Sharded 5-line absent-skipping & keept1 benchmark runner
 │   ├── run_counterfactual_inertia_benchmark.py# Sharded 9-arm counterfactual decomposition runner
 │   ├── run_a3_single_slot_control.py          # Verified-empty 2x2 single-slot factorial control runner
+│   ├── run_sam2long_vot22.py                  # Sharded official SAM2Long (ICCV 2025) VOT-LT2022 runner
 │   ├── summarize_cloud_results.py             # Programmatic table & 10,000-resample bootstrap CI aggregator
 │   ├── gonogo_a6_decomposed.py                # 9-arm counterfactual memory patch definitions
 │   ├── gonogo_simple_gating.py                # Gating policy hooks and dataset loader extensions

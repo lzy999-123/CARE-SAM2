@@ -129,6 +129,8 @@ def build_report(runs_dir: Path) -> str:
         ("SAMURAI Tiny — stock (`min_obj=-1.0`)", "vot22_samurai_tiny_m1", "baseline"),
         ("SAMURAI Tiny — calibrated (`min_obj=0.0`)", "vot22_samurai_tiny_m0", "baseline"),
         ("DAM4SAM Tiny — stock", "vot22_dam4sam_tiny", "baseline"),
+        ("SAM2Long Tiny — official (`K=3`, online top-1)", "vot22_sam2long_tiny", "baseline"),
+        ("SAM2Long Tiny — official (`K=3`, full-video backtrack)", "vot22_sam2long_tiny", "backtrack"),
     ]
     vot_rows = []
     cached = {}
